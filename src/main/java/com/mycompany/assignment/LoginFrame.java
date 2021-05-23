@@ -27,6 +27,8 @@ public class LoginFrame extends JFrame implements ActionListener {
     public void actionPerformed(ActionEvent e) {
         if(e.getSource()==loginButton){
             System.out.println("potato");
+            new HomePage();
+            this.dispose();
         }
         
     }
